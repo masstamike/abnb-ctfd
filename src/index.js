@@ -5,7 +5,7 @@ function makeRequest() {
     const url = "https://webhook.site/eb775c30-1e6a-4540-884a-132354edbda6";
 
     try {
-        const response = await fetch(url);
+        const response = fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
