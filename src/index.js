@@ -9,7 +9,7 @@ function makeRequest() {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data = await response.text();
+        const data = response.text();
         console.log("Response from the server:", data);
         return data;
     } catch (error) {
