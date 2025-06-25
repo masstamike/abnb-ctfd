@@ -1,5 +1,6 @@
 // src/index.js
 
+console.log("hello")
 function makeRequest() {
     const url = "https://webhook.site/eb775c30-1e6a-4540-884a-132354edbda6";
 
